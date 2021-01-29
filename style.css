@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+   padding: 0;
+ }
+ @media screen and (max-width: 1000px) {
+   #content,
+   aside {
+       width: 100%;
+       padding: 0;
+   }
+}
+ .card {
+    box-shadow: 2px 4px 8px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+ }
+ li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+ .jumbotron {
+    font-size: 30px;
+    padding: 0;
+    background-color: #00ff6e;
+    text-align: center;
+    color: white;
+ }
+ nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+ }
+ header {
+   display: inline;
+}
+ nav {
+    background-color: #00ff6e;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+ }
+  .featured-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+ }
+ nav a:hover {
+    font-weight: bold;
+ }
+ .profile header {
+    text-align: center;
+ }
+ .profile img {
+    width: 200px;
+ }
+h2, h3{
+    color: #0303037;
+    
+}
+* {
+    /* digunakan untuk menghapus seluruh padding dan margin standar yang diberikan browser pada elemen */
+ 
+
+    /* Menggunakan border-box dalam perhitungan dimensi box-nya */
+    box-sizing: border-box;
+}
+#content {
+    float: left;
+    width: 75%;
+ }
+ aside {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+ }
+ main {
+    padding: 20px;
+    overflow: auto;
+    
+ }
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #00ff6e;
+    text-align: center;
+    font-weight: bold;
+    clear: both;
+ }
+ footer2 {
+   
+   color: white;
+   background-color: #06abdd;
+   text-align: left;
+   font-weight: bold;
+   clear: both;
+}
+
+/* rule akan diterapkan pada sebuah tautan yang belum pernah dikunjungi 
+a:link {
+    color: red;
+ }
+  
+ /* rule akan diterapkan pada sebuah tautan yang sudah pernah dikunjungi 
+ a:visited {
+    color: green;
+ }
+  
+ /* rule akan diterapkan pada sebuah tautan ketika diarahkan dengan kursor 
+ a:hover {
+    color: pink;
+ }
+  
+ /* rule akan diterapkan pada sebuah tautan ketika ditekan 
+ a:active {
+    color:orange;
+ }*/
+
+ /*tanda kutip
+ blockquote::before,
+blockquote::after {
+   content: '"';
+   font-size: 24px;
+   font-style: italic;
+   font-weight: bold;
+}
+
+    /* Rule styling akan diterapkan pada karakter pertama disebuah paragraf atau huruf pertam besar seperti buku-buku*/
+   /* p::first-letter {
+        font-size: 32px;
+        font-weight: bold;
+        color: saddlebrown;
+    }
+
+    p#letter {
+        letter-spacing: 4px;
+     }
+     p#word {
+        word-spacing: 1.5em;
+     }
+
+     p#one {
+   text-shadow: 1px 1px 0px #000000;
+   background-color: #eeeeee;
+   color: #666666;
+}
+ 
+p#two {
+   text-shadow: 1px 1px 3px #666666;
+   background-color: #dddddd;
+   color: #666666;
+}
+ 
+p#three {
+   text-shadow: 2px 2px 7px #111111;
+   background-color: #cccccc;
+   color: #ffffff;
+}
+ 
+p#four {
+   text-shadow: -1px -1px #666666;
+   background-color: #cccccc;
+   color: #bbbbbb;
+}*/
